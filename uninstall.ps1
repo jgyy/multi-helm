@@ -1,0 +1,11 @@
+helm uninstall aws-ebs-csi-driver
+helm uninstall aws-efs-csi-driver
+helm uninstall aws-for-fluent-bit
+helm uninstall aws-load-balancer-controller
+helm uninstall aws-node-termination-handler
+helm uninstall cluster-autoscaler
+helm uninstall ingress-nginx
+helm uninstall k8s-aws-ebs-tagger
+helm uninstall k8s-event-logger
+helm uninstall kong
+helm uninstall kube-state-metrics
